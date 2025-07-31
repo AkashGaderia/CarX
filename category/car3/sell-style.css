@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d0d0d;
+  color: #fff;
+}
+
+header {
+  background: #1a1a1a;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #ff6600;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+nav a.active,
+nav a:hover {
+  color: #ff6600;
+}
+
+.hero {
+  background: url('sell-banner.jpg') no-repeat center center/cover;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #ccc;
+}
+
+.form-section {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.sell-form {
+  background: #1f1f1f;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sell-form label {
+  font-weight: bold;
+  color: #ddd;
+}
+
+.sell-form input[type="text"],
+.sell-form input[type="number"],
+.sell-form input[type="file"] {
+  padding: 10px;
+  background: #2a2a2a;
+  border: none;
+  color: white;
+  border-radius: 6px;
+}
+
+.sell-form button {
+  background: #ff6600;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.sell-form button:hover {
+  background: #e65c00;
+}
+
+footer {
+  background: #1a1a1a;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  color: #888;
+}
+

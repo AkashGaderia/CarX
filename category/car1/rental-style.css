@@ -1,0 +1,113 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0a0a0a;
+  color: #fff;
+}
+
+header {
+  background: #111;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #f00;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  
+}
+
+nav a.active, nav a:hover {
+  color: #f00;
+}
+
+.rental-hero {
+  background: #1a1a1a;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.rental-hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.rental-hero p {
+  font-size: 18px;
+  color: #aaa;
+}
+
+.rental-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.rental-card {
+  background: #222;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.rental-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.rental-card h3 {
+  margin: 10px 0 5px;
+  color: #f00;
+}
+
+.rental-card p {
+  margin: 0 0 10px;
+  color: #ccc;
+}
+
+.rental-card span {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.rental-card button {
+  background: #f00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.rental-card button:hover {
+  background: #c00;
+}
+
+footer {
+  background: #111;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  color: #777;
+}
+

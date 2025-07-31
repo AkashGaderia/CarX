@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CarX | Sell Your Car</title>
+  <link rel="stylesheet" href="sell-style.css"/>
+</head>
+<body>
+
+  <header>
+    <h1 class="logo">CarX Sell</h1>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/category/car2/buy.html">Buy</a>
+      <a href="/category/car1/rental.html">Rent</a>
+      <a href="/category/car3/sell.html" class="active">Sell</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Sell Your Car Easily</h2>
+    <p>Post your car and reach thousands of buyers instantly.</p>
+  </section>
+
+  <section class="form-section">
+    <form class="sell-form" action="upload.php" method="POST" enctype="multipart/form-data">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Your Name" required>
+
+      <label for="car-model">Car Model</label>
+      <input type="text" id="car-model" placeholder="e.g. Honda City 2022" required>
+
+      <label for="price">Expected Price (₹)</label>
+      <input type="text" id="price" placeholder="500000" required>
+
+      <label for="photo">Upload Car Photo:</label>
+      <input type="file" name="photo" id="photo" accept="image/*" required>
+
+      <button type="submit">Submit Listing</button>
+    </form>
+  </section>
+
+  <footer>
+    
+    <p>&copy; 2025 CarX. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
